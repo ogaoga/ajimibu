@@ -7,9 +7,8 @@ Polymer
 * https://github.com/polymer/polymer
 
 * メモ
-** デコレータは使わない。
-** カスタム要素：要素を自作できる。
-** Shadow DOM：コンポーネントの中身を隠す。
-** <content> で、指定元の innerHTML を参照できて、select="" でその中身の参照箇所を選択できる。
-** CSS の @host が要素そのものを指し示す。
-
+    * デコレータは使わない。
+    * カスタム要素：要素を自作できる。
+    * Shadow DOM：コンポーネントの中身を隠す。
+    * <content> で、指定元の innerHTML を参照できて、select="" でその中身の参照箇所を選択できる。
+    * CSS の @host が要素そのものを指し示す。
