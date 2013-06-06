@@ -1,0 +1,19 @@
+<element name="tk-element-property-public"
+         attributes="owner color">
+  <template>
+    <content select="h1"></content>
+    This is a <strong>{{owner}}</strong>'s tk-element. 
+    He likes the color <b style="color: {{color}}">{{color}}</b>.
+    <pre>
+      <content></content>
+    </pre>
+  </template>
+  <script>
+    Polymer.register(this, {
+      // These default property values are overridden
+      // by initial attribute values.
+      color: "red",
+      owner: "Daniel",
+    });
+  </script>
+</element>
